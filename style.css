@@ -1,0 +1,70 @@
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main .heading{
+    width: 20rem;
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 221, 218);
+    border-radius: 7px;
+    /* border: 1px solid black; */
+    margin: 80px  auto;
+    width: 350px;
+    height: 50vh;
+    padding: 17px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px black;
+}
+
+.container input{
+    width: 80%;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.container button{
+    width: 80%;
+    height: 55px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(25, 81, 204);
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.container #create_account{
+    width: 60%;
+    background-color: rgb(34, 165, 34);
+}
+
+@media (max-width : 760px){
+    .main {
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading{
+        margin: 20px auto;
+        
+    }
+
+}
